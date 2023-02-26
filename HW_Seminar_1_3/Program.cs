@@ -1,13 +1,11 @@
 ﻿Console.WriteLine("Input integer");
-int numberA = Convert.ToInt32(Console.ReadLine());
-int numberB = 2;
-result = numberA / numberB;
-num = result % 10;
-if(result = 0) 
+int num = Convert.ToInt32(Console.ReadLine());
+
+if ((num % 2) == 0)
 {
-    Console.WriteLine("Integer chetnoye");
+    Console.WriteLine("even");
 }
 else
 {
-    Console.WriteLine("Ineger nechetnoye");
+    Console.WriteLine("odd");
 }
